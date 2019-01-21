@@ -1,0 +1,57 @@
+<html>
+      <head>
+              <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+      </head>
+        <body>
+            <!-- Navigation bar -->
+            <div id="pag-nav">
+              <nav class="navbar navbar-inverse">
+                   <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-4">
+                         <ul class="nav navbar-nav">
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li><a href="user.html">User</a></li>
+                           <li><a href="admin.html">Admin</a></li>
+                         </ul>
+                       </div>
+                      <div class="col-sm-8" style="text-align:center">
+                         <div class="navbar-header">
+                           <a class="navbar-brand" href="#">Decentralized Application</a>
+                         </div>
+                       </div>
+                    </div>
+
+                   </div>
+               </nav>
+             </div>
+            <!-- Navigation Bar ends -->
+            <div class="container-fluid">
+              <div class="row">
+                      <div class=" col-sm-offset-1 col-sm-10">
+                          <h2>Posts</h2>
+                          <table class="table table-bordered">
+                              <thead>
+                                  <tr>
+                                    <th>#</th>
+                                    <th>Post Details</th>
+                                    <th>Votes</th>
+                                  </tr>
+                              </thead>
+                              <tbody id="allPostsTable">
+
+                              </tbody>
+                          </table>
+                     </div>
+              </div>   <!--  row ends -->
+          </div>
+        </body>
+        <script src="./app.js"></script>
+</html>
